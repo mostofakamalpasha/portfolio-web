@@ -18,6 +18,12 @@ h1{
 .half-width img{
     width: 80%;
 }
-.hire-me-button{
-    
+#hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange tomato);
+    color: rgb(41, 24, 24);
+    border: yellowgreen;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 10px;
 }
