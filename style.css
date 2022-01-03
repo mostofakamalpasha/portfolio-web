@@ -8,8 +8,9 @@ h1{
 .orange-color{
     color: orange;
 }
-.section1{
+section{
     display: flex;
+    
 }
 .half-width{
     width: 50%;
@@ -18,12 +19,14 @@ h1{
 .half-width img{
     width: 80%;
 }
-#hire-me-button{
+.hire-me-button{
     text-decoration: none;
-    background-image: linear-gradient(orange tomato);
-    color: rgb(41, 24, 24);
-    border: rgb(248, 1, 1);
+    background-image: linear-gradient(red blue);
     padding: 10px 40px;
+    color: rgb(41, 24, 24);
     font-weight: 700;
     border-radius: 10px;
+}
+.section-one{
+    background-image: url(images/top-banner.png);
 }
