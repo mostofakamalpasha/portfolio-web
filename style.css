@@ -21,11 +21,12 @@ section{
 }
 .hire-me-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(69, 175, 104) blue);
+    border: 1px solid;
+    border-radius: 5px;
+    background: linear-gradient(45ged, red, blue);
     padding: 10px 40px;
-    color: rgb(223, 51, 51);
-    font-weight: 700;
-    border-radius: 10px;
+
+
 }
 .section-one{
     background-image: url(images/top-banner.png);
