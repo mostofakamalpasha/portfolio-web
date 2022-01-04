@@ -21,9 +21,9 @@ section{
 }
 .hire-me-button{
     text-decoration: none;
-    border: 1px solid;
+    color: white;
     border-radius: 5px;
-    background: linear-gradient(45ged, red, blue);
+    background: linear-gradient(45deg, red, blue);
     padding: 10px 40px;
 
 
