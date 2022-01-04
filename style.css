@@ -10,7 +10,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexible{
     display: flex;
     width: 100%;
     padding-bottom: 100px;
@@ -36,4 +36,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.footer-color{
+    color: rgb(238, 107, 0);
+}
+.box-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    box-shadow: 10px 10px 30px gray;
+}
+#full-stack{ 
+    border-left: 7px solid;
+    border-image:linear-gradient(45deg,red,blue);
+    border-image-slice: 1;
+}
+
+#web-devoloper{
+    border-left: 7px solid;
+    border-image:linear-gradient(45deg,rgb(10, 214, 119),rgb(134, 30, 231));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
